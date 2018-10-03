@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Markdown文本编辑基本语法]]></title>
+    <url>%2F2018%2F10%2F01%2FMarkdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E8%AF%95%E7%94%A8%E5%8F%8A%E6%95%88%E6%9E%9C%2F</url>
+    <content type="text"><![CDATA[作为一枚小白，刚刚开始博客写作不知如何下手？别慌，这里有一份Markdown入门秘籍 注：本文中，显示效果在上，书写语法（代码）在下。 标题类这是一级标题1# 这是一级标题 这是二级标题1## 这是二级标题 这是三级标题1### 这是三级标题 列表类 列表1 列表2 a 字列表1 b 字列表2 列表312345- 列表1- 列表2 a 字列表1 b 字列表2- 列表3 链接百度 1[百度](https://www.baidu.com/) 斜体看我是不是变斜啦 1*看我是不是变斜啦* 加粗咦？我好像变胖啦（加粗） 1**咦？我好像变胖啦（加粗）** 斜体加粗啊哦！胖的我失去了重心！ 1***啊哦！胖的我失去了重心！*** 文字加删除线这条线挡住了我帅气的光芒 1~~这条线挡住了我帅气的光芒~~ 代码（单行）1printf(&quot;hello world&quot;) 123`printf(&quot;hello world&quot;)`PS：Tab键上方的按键（反引号），按两下后在中间书写即可，也可按多行格式书写（见下面） 代码块（多行）12345#include &lt;stdio.h&gt;void main()&#123; printf(&quot;Welcome to my blog!&quot;)&#125; 123456789```#include &lt;stdio.h&gt;void main()&#123; printf(&quot;Welcome to my blog!&quot;)&#125;```PS：Tab键上方的按键（反引号），按六下（三个为一组）后在中间书写即可，如需换行，回车即可。 行内标记我要标记print(&quot;2018&quot;)被标记了 1我要标记`print(&quot;2018&quot;)`被标记了 引用 Attention! 这些内容是引用的 1&gt;Attention! 这些内容是引用的 图片1![avatar](https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1538339435726&amp;di=29a608e5b88bc40d48f2ca0cfe52a2a6&amp;imgtype=0&amp;src=http%3A%2F%2Fs16.sinaimg.cn%2Fbmiddle%2F4e7340b4t563c24bd1b2f) 表格 姓名 国籍 居住星球 MQ China Earth LHB China Earth 12345678910姓名|国籍|居住星球---|:--:|---:MQ|China|EarthLHB|China|EarthPS：第二行：分割表头及内容文字默认居左对齐；文字两边都加冒号：居中对齐文字右边加冒号：居右对齐 居中你能看到我在中间吗？ 1&lt;center&gt;你能看到我在中间吗？&lt;/center&gt; 引用居中我这一行的左上角和右下角成精了？ 1&lt;blockquote class=&quot;blockquote-center&quot;&gt;我这一行的左上角和右下角成精了？&lt;/blockquote&gt; 分割线嗯，最后再说说这个分割线可以看到文章中很多分割线的效果（别告诉我你没看到啊）代码很简单 12345***---------------PS：上面三种都可以，长度不影响，大于3个就行 当然了这仅仅是Markdown语法的一部分更多功能还在不断尝试中如果你和我一样是小白一点也不用担心它的语法体系总体简单而且常用的也就那么几个（总不可能在一篇文章中应用上述所有格式吧）快上手试试吧 附：Markdown中文教程官网 原来可以添加视频，哈哈哈哈自定义了宽高（试了n遍终于看起来舒服了）唯一的缺点是不能全屏（能全屏时为B站的播放模式）小白的我还没找到方法就先凑合看吧~~视频讲述了一个很著名的故事而我是在建这个博客时才知道的贫穷和无知限制了我的想象 视频来源：bilibili@学渣胡小兔]]></content>
+      <categories>
+        <category>markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[南阳向北]]></title>
+    <url>%2F2018%2F10%2F01%2F%E5%8D%97%E9%98%B3%E5%90%91%E5%8C%97%2F</url>
+    <content type="text"><![CDATA[第一篇Blog（On National Day）Hi，大家好，我是南阳，这是我的第一篇博客。 正值国庆节，祝祖国母亲节日快乐，也愿各位国庆假期玩得开心！ PS: This is a test of my blog, you can ingnore it. And Happy National Day!]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>computer</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F09%2F30%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>

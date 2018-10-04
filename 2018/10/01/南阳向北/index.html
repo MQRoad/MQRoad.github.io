@@ -343,7 +343,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="南阳">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/touxiang.jpg">
+      <meta itemprop="image" content="/uploads/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -488,15 +488,6 @@
 
     
 
-
-      <div>
-        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
-    <img id="wechat_subscriber_qcode" src="/images/A--WEO QR.jpg" alt="南阳 wechat" style="width: auto; height:250px; max-width: 100%;"/>
-    <div>欢迎关注我的微信公众号</div>
-</div>
-      </div>
-    
-
 <div>
   
     <div>
@@ -588,7 +579,7 @@
         <div class="post-widgets">
         
           <div class="wp_rating">
-           <div style="color: rgba(0, 0, 0, 0.75); font-size:10px; letter-spacing:3px">(&gt;看完了来个五星好评如何？&lt;)</div>
+           <div style="color: rgba(0, 0, 0, 0.75); font-size:10px; letter-spacing:3px">(&gt;来个五星好评可好？&lt;)</div>
             <div id="wpac-rating"></div>
           </div>
         
@@ -685,9 +676,11 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+            <a href="/">
               <img class="site-author-image" itemprop="image"
-                src="/images/touxiang.jpg"
+                src="/uploads/avatar.gif"
                 alt="南阳" />
+            </a>
             
               <p class="site-author-name" itemprop="name">南阳</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -758,8 +751,8 @@
   <div class="links-of-blogroll motion-element links-of-blogroll-inline">
     <div class="links-of-blogroll-title">
       <i class="fa  fa-fw fa-link"></i>
-      站外链接&nbsp;
-      <i class="fa  fa-fw fa-link"></i>
+      站外链接
+      
     </div>
     <ul class="links-of-blogroll-list">
       
@@ -780,35 +773,10 @@
         </li>
       
     </ul>
-     <div id="days"></div>
-</script>
-<script language="javascript">
-function show_date_time(){
-window.setTimeout("show_date_time()", 1000);
-BirthDay=new Date("09/29/2018 22:00:00");
-today=new Date();
-timeold=(today.getTime()-BirthDay.getTime());
-sectimeold=timeold/1000
-secondsold=Math.floor(sectimeold);
-msPerDay=24*60*60*1000
-e_daysold=timeold/msPerDay
-daysold=Math.floor(e_daysold);
-e_hrsold=(e_daysold-daysold)*24;
-hrsold=setzero(Math.floor(e_hrsold));
-e_minsold=(e_hrsold-hrsold)*60;
-minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
-seconds=setzero(Math.floor((e_minsold-minsold)*60));
-document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒";
-}
-function setzero(i){
-if (i<10)
-{i="0" + i};
-return i;
-}
-show_date_time();
-</script>
-
+     
   </div>
+ 
+
  
 
           <div id="days"></div>
@@ -889,6 +857,14 @@ show_date_time();
 
 
 
+
+<div class="weixin-box">
+  <div class="weixin-menu">
+    <div class="weixin-hover">
+      <div class="weixin-description">微信扫一扫，订阅本博客</div>
+    </div>
+  </div>
+</div>
         
 <div class="busuanzi-count">
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -1456,6 +1432,7 @@ show_date_time();
 
   
 
+
   <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
 
@@ -1465,6 +1442,13 @@ show_date_time();
 <!-- 代码块复制功能 -->
 <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
 <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
+
+<!-- 背景图片 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>;
+<script>
+$("body").backstretch("https://images.unsplash.com/photo-1510885154241-75e69f87acae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=59884dbb2485b82d58044df2a1f16090&auto=format&fit=crop&w=1051&q=80");
+</script>
+
 
 </body>
 </html>
